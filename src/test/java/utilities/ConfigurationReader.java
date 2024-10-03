@@ -13,7 +13,7 @@ public class ConfigurationReader {
     // static block gets loaded first thing in the memory
     static {
         System.out.println("static is executed ");
-        String path = "src/test/resources/env_variables.properties";
+        String path = "src/test/resources/configuration.properties";
         try {
             //loading the file
             FileInputStream fileInputStream = new FileInputStream(path);
